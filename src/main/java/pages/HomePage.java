@@ -25,6 +25,10 @@ public class HomePage extends TestBase {
 
 		return homePageTitle;
 	}
+	
+	public void setValue(String inputVal) {
+		
+	}
 
 	/*
 	 * @method enterOriginStation

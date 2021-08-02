@@ -19,7 +19,7 @@ public class HomePageTest extends TestBase {
 		try {
 			new HomePage().searchFlights();
 			String pageTitle = new HomePage().getTitle();
-			Assert.assertEquals(pageTitle,homepagetitle);
+			Assert.assertEquals(pageTitle,homepagetitle,"Expected the Same Page Title");
 			//new FlightDetailsPage().selectFlightByDepTime("11:00");
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
